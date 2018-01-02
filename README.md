@@ -1,5 +1,13 @@
-# Caffe
+Deps
 
+``
+module-whatis  "\t https://developer.nvidia.com/rdp/cudnn-archive"
+module-whatis  "\t wget https://developer.nvidia.com/rdp/assets/libcudnn5_5.0.5-1+cuda7.5_amd64-deb "
+module-whatis  "\t wget https://developer.nvidia.com/rdp/assets/libcudnn5-dev_5.0.5-1+cuda7.5_amd64-deb "
+module-whatis  "\t sudo dpkg -i libcudnn5-dev_5.0.5-1+cuda7.5_amd64.deb libcudnn5 "
+``
+
+# Caffe
 [![Build Status](https://travis-ci.org/BVLC/caffe.svg?branch=master)](https://travis-ci.org/BVLC/caffe)
 [![License](https://img.shields.io/badge/license-BSD-blue.svg)](LICENSE)
 
